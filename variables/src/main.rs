@@ -71,4 +71,25 @@ fn main() {
     for x in arr2 {
         println!("{x}");
     }
+
+    print_my_name_times("Matthew Stagg", 3);
+
+    let exp = {
+        let x = 1;
+        x * 10 // adding a semicolon here makes it a statement, not an expression... so it will not return a value
+    };
+    println!("We can scope expressions: {exp}");
+
+    let ten = ten();
+    println!("Functions can exist as a single value expression: {ten}");
+}
+
+fn print_my_name_times(name: &str, times: u32) {
+    for _ in 0..times {
+        println!("My name is {name}.");
+    }
+}
+
+fn ten() -> u8 {
+    10
 }
