@@ -9,6 +9,7 @@
 5. [Branches](https://doc.rust-lang.org/book/ch03-05-control-flow.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/branches)
 6. [Ownership](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ownership)
 7. [References](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/references)
+8. [Slices](https://doc.rust-lang.org/book/ch04-03-slices.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/slices)
 
 ## Exercises
 
