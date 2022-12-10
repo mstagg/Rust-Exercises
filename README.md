@@ -13,6 +13,7 @@
 9. [Structs](https://doc.rust-lang.org/book/ch05-00-structs.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/structs)
 9. [Rectagles](https://doc.rust-lang.org/book/ch05-02-example-structs.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/rectangles)
 9. [Enums](https://doc.rust-lang.org/book/ch06-00-enums.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/enums)
+10. [Packages, Crates, and Modules](https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/modules)
 
 ## Exercises
 
