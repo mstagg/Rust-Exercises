@@ -35,18 +35,14 @@ pub fn mode(v: &Vec<i32>) -> Option<Vec<i32>> {
         *count += 1;
     }
 
-    let mut highest_occurance = 0;
-    for val in number_count_map.values() {
-        if *val > highest_occurance {
-            highest_occurance = *val;
-        }
-    }
-
+    let highest_occurance = *number_count_map.values().max().unwrap();
     let mut v_mode = Vec::new();
-    for (key, val) in &number_count_map {
-        if *val == highest_occurance {
-            v_mode.push(*key);
-        }
+    for key in number_count_map
+        .iter()
+        .filter(|(_, &v)| v == highest_occurance)
+        .map(|(&k, _)| k)
+    {
+        v_mode.push(key);
     }
 
     Some(v_mode)
