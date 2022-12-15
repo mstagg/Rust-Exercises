@@ -1,4 +1,8 @@
 const VOWELS: [char; 5] = ['a', 'e', 'i', 'o', 'u'];
+const CONSONANTS: [char; 21] = [
+    'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x',
+    'y', 'z',
+];
 
 pub fn from(s: &str) -> String {
     s.split_whitespace()
@@ -17,7 +21,7 @@ fn translate_word(s: &str) -> String {
             translated_word.push_str(&pig_latin);
             break;
         } else if is_consonant(&c) {
-            let pig_latin = format!("{}-{}ay", &s_only_letters[idx + 1..], c);
+            let pig_latin = format!("{}-{}ay", string_from_index(&s_only_letters, idx + 1), c);
             translated_word.push_str(&pig_latin);
             break;
         } else {
@@ -31,14 +35,32 @@ fn translate_word(s: &str) -> String {
 fn only_letters(s: &str) -> String {
     s.chars()
         .filter(|c| c.is_alphabetic() || c.is_numeric())
-        .map(|c| c.to_ascii_lowercase())
+        .map(|c| c.to_lowercase().to_string())
+        .collect::<String>()
+}
+
+fn string_from_index(s: &str, idx: usize) -> String {
+    s.chars().collect::<Vec<char>>()[idx..]
+        .iter()
         .collect::<String>()
 }
 
 fn is_vowel(c: &char) -> bool {
-    VOWELS.contains(&c.to_ascii_lowercase())
+    let c_lowercase = c.to_lowercase().collect::<Vec<char>>();
+    for c_l in c_lowercase {
+        if VOWELS.contains(&c_l) {
+            return true;
+        }
+    }
+    false
 }
 
 fn is_consonant(c: &char) -> bool {
-    !is_vowel(c) && c.is_alphabetic()
+    let c_lowercase = c.to_lowercase().collect::<Vec<char>>();
+    for c_l in c_lowercase {
+        if CONSONANTS.contains(&c_l) {
+            return true;
+        }
+    }
+    false
 }

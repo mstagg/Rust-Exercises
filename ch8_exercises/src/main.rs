@@ -19,16 +19,24 @@ fn main() {
     let s2 = "I work at a company called 30rock.";
     let s3 = "Please, hide the weed under the couch! I will lose my job.";
     let s4 = "I would be in jail for 25 years!";
+    let s5 = "I can say hello in hindi: नमस्ते";
+    let s6 = "Sometimes I use emojis like this: 😂😂😂.";
     let s1_as_pl = pig_latin::from(s1);
     let s2_as_pl = pig_latin::from(s2);
     let s3_as_pl = pig_latin::from(s3);
     let s4_as_pl = pig_latin::from(s4);
+    let s5_as_pl = pig_latin::from(s5);
+    let s6_as_pl = pig_latin::from(s6);
     println!("English: {s1}");
     println!("English: {s2}");
     println!("English: {s3}");
     println!("English: {s4}");
+    println!("English: {s5}");
+    println!("English: {s6}");
     println!("Pig Latin: {s1_as_pl}");
     println!("Pig Latin: {s2_as_pl}");
     println!("Pig Latin: {s3_as_pl}");
     println!("Pig Latin: {s4_as_pl}");
+    println!("Pig Latin: {s5_as_pl}");
+    println!("Pig Latin: {s6_as_pl}");
 }
