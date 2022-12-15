@@ -16,11 +16,19 @@ fn main() {
     }
 
     let s1 = "My name is Matthew Stagg.";
-    let s2 = "Quick, hide the weed under the couch! I cannot go to jail.";
+    let s2 = "I work at a company called 30rock.";
+    let s3 = "Please, hide the weed under the couch! I will lose my job.";
+    let s4 = "I would be in jail for 25 years!";
     let s1_as_pl = pig_latin::from(s1);
     let s2_as_pl = pig_latin::from(s2);
+    let s3_as_pl = pig_latin::from(s3);
+    let s4_as_pl = pig_latin::from(s4);
     println!("English: {s1}");
-    println!("Pig Latin: {s1_as_pl}");
     println!("English: {s2}");
+    println!("English: {s3}");
+    println!("English: {s4}");
+    println!("Pig Latin: {s1_as_pl}");
     println!("Pig Latin: {s2_as_pl}");
+    println!("Pig Latin: {s3_as_pl}");
+    println!("Pig Latin: {s4_as_pl}");
 }
