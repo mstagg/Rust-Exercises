@@ -8,13 +8,10 @@ pub fn convert(s: &str) -> String {
 }
 
 fn translate(s: &str) -> String {
-    let s_copy = String::from(s);
-    let s_only_letters = only_letters(&s_copy);
-
+    let s_only_letters = only_letters(&String::from(s));
     let mut translated_word = String::new();
-    let chars = s_only_letters.chars().enumerate();
 
-    for (idx, c) in chars {
+    for (idx, c) in s_only_letters.chars().enumerate() {
         if idx == 0 && is_vowel(&c) {
             translated_word.push_str(&s_only_letters);
             translated_word.push_str("-hay");
