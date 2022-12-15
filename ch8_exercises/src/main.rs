@@ -15,8 +15,12 @@ fn main() {
         None => println!("Mode of v: {:?}", "undefined"),
     }
 
-    let s = "Quick, hide the weed under the couch! I cannot go to jail.";
-    let s_as_pl = pig_latin::convert(s);
-    println!("English: {s}");
-    println!("Pig Latin: {s_as_pl}");
+    let s1 = "My name is Matthew Stagg.";
+    let s2 = "Quick, hide the weed under the couch! I cannot go to jail.";
+    let s1_as_pl = pig_latin::from(s1);
+    let s2_as_pl = pig_latin::from(s2);
+    println!("English: {s1}");
+    println!("Pig Latin: {s1_as_pl}");
+    println!("English: {s2}");
+    println!("Pig Latin: {s2_as_pl}");
 }

@@ -1,13 +1,13 @@
 const VOWELS: [char; 5] = ['a', 'e', 'i', 'o', 'u'];
 
-pub fn convert(s: &str) -> String {
+pub fn from(s: &str) -> String {
     s.split_whitespace()
-        .map(translate)
+        .map(translate_word)
         .collect::<Vec<String>>()
         .join(" ")
 }
 
-fn translate(s: &str) -> String {
+fn translate_word(s: &str) -> String {
     let s_only_letters = only_letters(&String::from(s));
     let mut translated_word = String::new();
 
