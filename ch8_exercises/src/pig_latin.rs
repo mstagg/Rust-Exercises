@@ -13,14 +13,12 @@ fn translate_word(s: &str) -> String {
 
     for (idx, c) in s_only_letters.chars().enumerate() {
         if idx == 0 && is_vowel(&c) {
-            translated_word.push_str(&s_only_letters);
-            translated_word.push_str("-hay");
+            let pig_latin = format!("{}-hay", &s_only_letters);
+            translated_word.push_str(&pig_latin);
             break;
         } else if is_consonant(&c) {
-            translated_word.push_str(&s_only_letters[idx + 1..]);
-            translated_word.push('-');
-            translated_word.push(c.to_ascii_lowercase());
-            translated_word.push_str("ay");
+            let pig_latin = format!("{}-{}ay", &s_only_letters[idx + 1..], c);
+            translated_word.push_str(&pig_latin);
             break;
         } else {
             translated_word.push(c);
