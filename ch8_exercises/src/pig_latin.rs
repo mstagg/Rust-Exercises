@@ -47,20 +47,10 @@ fn string_from_index(s: &str, idx: usize) -> String {
 
 fn is_vowel(c: &char) -> bool {
     let c_lowercase = c.to_lowercase().collect::<Vec<char>>();
-    for c_l in c_lowercase {
-        if VOWELS.contains(&c_l) {
-            return true;
-        }
-    }
-    false
+    c_lowercase.iter().all(|x| VOWELS.contains(&x))
 }
 
 fn is_consonant(c: &char) -> bool {
     let c_lowercase = c.to_lowercase().collect::<Vec<char>>();
-    for c_l in c_lowercase {
-        if CONSONANTS.contains(&c_l) {
-            return true;
-        }
-    }
-    false
+    c_lowercase.iter().all(|x| CONSONANTS.contains(&x))
 }
