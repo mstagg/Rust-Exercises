@@ -53,7 +53,7 @@ fn read_command() -> u32 {
     loop {
         prompt();
         let command = read_input();
-        match command.trim().parse() {
+        match read_input().trim().parse() {
             Ok(x) => return x,
             Err(_) => {
                 println!("{} is not a number. You idiot!", command.trim());
