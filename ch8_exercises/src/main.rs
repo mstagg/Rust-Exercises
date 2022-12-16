@@ -1,5 +1,8 @@
+mod employees;
 mod median_and_mode;
 mod pig_latin;
+
+use employees::Database;
 
 fn main() {
     let v = vec![1, 7, 7, 31, 7, 3, 12, 17, 26, 15, 3, 3, 33, 41];
@@ -39,4 +42,7 @@ fn main() {
     println!("Pig Latin: {s4_as_pl}");
     println!("Pig Latin: {s5_as_pl}");
     println!("Pig Latin: {s6_as_pl}");
+
+    let mut e = Database::new();
+    e.run();
 }
