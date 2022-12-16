@@ -40,9 +40,7 @@ fn only_letters(s: &str) -> String {
 }
 
 fn string_from_index(s: &str, idx: usize) -> String {
-    s.chars().collect::<Vec<char>>()[idx..]
-        .iter()
-        .collect::<String>()
+    String::from(&s[idx..])
 }
 
 fn is_vowel(c: &char) -> bool {
