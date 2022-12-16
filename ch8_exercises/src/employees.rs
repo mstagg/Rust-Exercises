@@ -11,21 +11,7 @@ impl Database {
 
     pub fn run(&mut self) {
         loop {
-            println!("Please select an option below:");
-            println!("1. Add an employee");
-            println!("2. List all employees");
-            println!("3. Exit");
-
-            let command = read_input();
-            let parsed_command: u32 = match command.trim().parse() {
-                Ok(x) => x,
-                Err(_) => {
-                    println!("{} is not a number. You idiot!", command.trim());
-                    continue;
-                }
-            };
-
-            match parsed_command {
+            match read_command() {
                 1 => self.add_employee(),
                 2 => self.list_employees(),
                 3 => break,
@@ -53,6 +39,27 @@ impl Database {
                 println!("\t{}", employee);
             }
         }
+    }
+}
+
+fn prompt() {
+    println!("Please select an option below:");
+    println!("1. Add an employee");
+    println!("2. List all employees");
+    println!("3. Exit");
+}
+
+fn read_command() -> u32 {
+    loop {
+        prompt();
+        let command = read_input();
+        match command.trim().parse() {
+            Ok(x) => return x,
+            Err(_) => {
+                println!("{} is not a number. You idiot!", command.trim());
+                continue;
+            }
+        };
     }
 }
 
