@@ -17,6 +17,7 @@
 13. [Data Structures](https://doc.rust-lang.org/book/ch08-00-common-collections.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/data_structures)
 14. [Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/errors)
 15. [Generics](https://doc.rust-lang.org/book/ch10-00-generics.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/generics)
+15. [Traits](https://doc.rust-lang.org/book/ch10-02-traits.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/traits)
 
 ## Exercises
 
