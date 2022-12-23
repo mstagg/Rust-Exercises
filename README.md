@@ -18,7 +18,8 @@
 14. [Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/errors)
 15. [Generics](https://doc.rust-lang.org/book/ch10-00-generics.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/generics)
 15. [Traits](https://doc.rust-lang.org/book/ch10-02-traits.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/traits)
-15. [Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/lifetimes)
+16. [Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/lifetimes)
+17. [Tests](https://doc.rust-lang.org/book/ch11-01-writing-tests.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/adder)
 
 ## Exercises
 
