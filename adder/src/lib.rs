@@ -18,6 +18,11 @@ fn greeting(name: &str) -> String {
     format!("Hello!")
 }
 
+fn prints_and_returns_10(a: i32) -> i32 {
+    println!("I got the value {}", a);
+    10
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -93,5 +98,33 @@ mod tests {
         } else {
             Err(String::from("two plus two does not equal four"))
         }
+    }
+
+    // standard output will NOT display when a test passes. We can force rust to show
+    // standard output by adding the show-ouput flag like so: cargo test -- --show-output
+    #[test]
+    fn this_test_will_pass() {
+        let value = prints_and_returns_10(4);
+        assert_eq!(10, value);
+    }
+
+    // standard output DOES display when th test fails. This helps keep your console
+    // output clean for succesful test runs
+    #[test]
+    fn this_test_will_fail() {
+        let value = prints_and_returns_10(8);
+        assert_eq!(5, value);
+    }
+
+    // we can mark tests to be ignored unless specifically requested with the #[ignore]
+    // tag. This is useful for long running, expensive tests that we only want to run
+    // occasionally. It can be ran with the following flag: cargo test -- --ignored
+    // You can ensure ALL tests run, regardless of 'ignored' status with the following:
+    // cargo test -- --include-ignored
+    #[test]
+    #[ignore]
+    fn expensive_test() {
+        // code that takes an hour to run
+        assert!(true);
     }
 }
