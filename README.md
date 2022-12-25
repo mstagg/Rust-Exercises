@@ -26,3 +26,6 @@
 - [Chapter 3](https://doc.rust-lang.org/book/ch03-05-control-flow.html#summary) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ch3_exercises)
 - [Chapter 8](https://doc.rust-lang.org/book/ch08-03-hash-maps.html#summary) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ch8_exercises)
 
+## Projects
+- [Grep CLI](https://doc.rust-lang.org/book/ch12-00-an-io-project.html) - TODO
+
