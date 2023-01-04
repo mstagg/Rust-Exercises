@@ -37,13 +37,18 @@ pub struct Args {
 }
 
 impl Args {
-    pub fn from(args: &Vec<String>) -> Result<Args, String> {
-        if args.len() < 3 {
-            return Err(String::from("Too few arguments"));
-        }
+    pub fn from(mut args: impl Iterator<Item = String>) -> Result<Args, &'static str> {
+        // discard first value, it is the program name, not a program argument
+        args.next();
 
-        let query = args[1].clone();
-        let path = args[2].clone();
+        let query = match args.next() {
+            Some(a) => a,
+            None => return Err("Invalid or Missing Query String"),
+        };
+        let path = match args.next() {
+            Some(a) => a,
+            None => return Err("Invalid or Missing Path String"),
+        };
         let case_insensitive = env::var("CASE_INSENSITIVE").is_ok();
 
         Ok(Args {
