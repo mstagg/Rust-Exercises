@@ -20,6 +20,8 @@
 15. [Traits](https://doc.rust-lang.org/book/ch10-02-traits.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/traits)
 16. [Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/lifetimes)
 17. [Tests](https://doc.rust-lang.org/book/ch11-01-writing-tests.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/adder)
+18. [Closures](https://doc.rust-lang.org/book/ch13-00-functional-features.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/closures)
+19. [Iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/iterators)
 
 ## Exercises
 
