@@ -22,6 +22,8 @@
 17. [Tests](https://doc.rust-lang.org/book/ch11-01-writing-tests.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/adder)
 18. [Closures](https://doc.rust-lang.org/book/ch13-00-functional-features.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/closures)
 19. [Iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/iterators)
+20. [Cargo](https://doc.rust-lang.org/book/ch14-01-release-profiles.html)
+21. [Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/workspaces)
 
 ## Exercises
 
