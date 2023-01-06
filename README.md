@@ -24,6 +24,7 @@
 19. [Iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/iterators)
 20. [Cargo](https://doc.rust-lang.org/book/ch14-01-release-profiles.html)
 21. [Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/workspaces)
+21. [Boxes and Smart Pointers](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/smart_pointers)
 
 ## Exercises
 
