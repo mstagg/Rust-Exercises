@@ -25,6 +25,7 @@
 20. [Cargo](https://doc.rust-lang.org/book/ch14-01-release-profiles.html)
 21. [Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/workspaces)
 21. [Boxes and Smart Pointers](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/smart_pointers)
+22. [RefCell](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ref_cell)
 
 ## Exercises
 
