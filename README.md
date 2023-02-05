@@ -26,6 +26,8 @@
 21. [Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/workspaces)
 21. [Boxes and Smart Pointers](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/smart_pointers)
 22. [RefCell](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ref_cell)
+22. [Threads](https://doc.rust-lang.org/book/ch16-01-threads.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/threads)
+22. [Messages](https://doc.rust-lang.org/book/ch16-02-message-passing.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/messages)
 
 ## Exercises
 
