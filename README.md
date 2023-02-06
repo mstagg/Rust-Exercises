@@ -28,6 +28,7 @@
 22. [RefCell](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ref_cell)
 22. [Threads](https://doc.rust-lang.org/book/ch16-01-threads.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/threads)
 22. [Messages](https://doc.rust-lang.org/book/ch16-02-message-passing.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/messages)
+22. [Shared State (Mutexes)](https://doc.rust-lang.org/book/ch16-03-shared-state.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/shared_state)
 
 ## Exercises
 
