@@ -26,9 +26,11 @@
 21. [Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/workspaces)
 21. [Boxes and Smart Pointers](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/smart_pointers)
 22. [RefCell](https://doc.rust-lang.org/book/ch15-05-interior-mutability.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/ref_cell)
-22. [Threads](https://doc.rust-lang.org/book/ch16-01-threads.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/threads)
-22. [Messages](https://doc.rust-lang.org/book/ch16-02-message-passing.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/messages)
-22. [Shared State (Mutexes)](https://doc.rust-lang.org/book/ch16-03-shared-state.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/shared_state)
+23. [Threads](https://doc.rust-lang.org/book/ch16-01-threads.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/threads)
+24. [Messages](https://doc.rust-lang.org/book/ch16-02-message-passing.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/messages)
+25. [Shared State (Mutexes)](https://doc.rust-lang.org/book/ch16-03-shared-state.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/shared_state)
+26. [OOP (Composition)](https://doc.rust-lang.org/book/ch17-02-trait-objects.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/oop)
+27. [OOP (State Machine)](https://doc.rust-lang.org/book/ch17-03-oo-design-patterns.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/oop_2)
 
 ## Exercises
 
