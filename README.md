@@ -31,6 +31,7 @@
 25. [Shared State (Mutexes)](https://doc.rust-lang.org/book/ch16-03-shared-state.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/shared_state)
 26. [OOP (Composition)](https://doc.rust-lang.org/book/ch17-02-trait-objects.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/oop)
 27. [OOP (State Machine)](https://doc.rust-lang.org/book/ch17-03-oo-design-patterns.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/oop_2)
+28. [Patterns](https://doc.rust-lang.org/book/ch18-01-all-the-places-for-patterns.html) - [practice](https://github.com/mstagg/Rust-Exercises/tree/master/patterns)
 
 ## Exercises
 
