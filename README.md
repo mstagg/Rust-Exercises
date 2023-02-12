@@ -42,4 +42,5 @@
 
 ## Projects
 - [Grep CLI](https://doc.rust-lang.org/book/ch12-00-an-io-project.html) - [implementation](https://github.com/mstagg/Rust-Exercises/tree/master/minigrep)
+- [Multi-threaded Server](https://doc.rust-lang.org/book/ch20-01-single-threaded.html) - [implementation](https://github.com/mstagg/Rust-Exercises/tree/master/server)
 
